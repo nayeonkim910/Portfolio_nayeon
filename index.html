@@ -29,9 +29,9 @@ rel="stylesheet">
         <div>
             <ul class="navbar__menu">
                 <li class="navbar__menu__item">Home</li>
-                <li class="navbar__menu__item">About</li>
-                <li class="navbar__menu__item">Skills</li>
-                <li class="navbar__menu__item">My work</li>
+                <li class="navbar__menu__item">About</li>  <!--자격증, 스킬 적기 -->
+                <li class="navbar__menu__item">Skills</li>  <!--스킬 기록-->
+                <li class="navbar__menu__item">My work</li><!--프로젝트 기록   -->
                 <li class="navbar__menu__item">Contact</li>
             </ul> 
         </div> 
@@ -43,12 +43,77 @@ rel="stylesheet">
         alt="Nayeon's Profile image"
         class="home__avatar">
         <h1 class="home__title">Hello,<br> I'm Nayeon</h1>
-        <h3 class="home__description">열정과 끈기를 가지고 매일 발전해나가는 Front-end Developer</h3>
+        <h3 class="home__description">I like : 새로운 것 도전하기, 커뮤니케이션, 성장하는 개발자  </h3>
         <button class="home__contact">Contact me</button>
     </section>
+
+
+
+
     <!-- About -->
-    <section id='about'>  
-    </section>
+    <section id='about'>    
+        <h1>About me</h1>
+        <ul> 
+            <li> html.css.javascript를 이용한 포트폴리오  + project1 </li>
+            <li>javaScript를 활용하기 위해 typeScript학습 + project2 </li>
+            <li>React 학습 + project3</li>
+            <li>back-end학습 위해 node.js학습, 네트워크, SQL 자격증 취득</li>
+        </ul>
+        <div class="about__stacks">
+        <!--box3개  -->
+            <div class="stack">
+                <!-- 프론트앤드 -->
+                <div class="stack__icon"> 
+                    <img src="imgs/react_icon.png" alt="react아이콘">
+                </div>
+                <div class="stack__title">Front-end</div>
+                <div class="stack__description">
+                    HTML/CSS, JavaScript, TypeScript, React.js
+                </div>
+            </div>
+                <!-- 백앤드 -->
+            <div class="stack">
+                <div class="stack__icon"> 
+                    <img src="imgs/node_icon.png" alt="node아이콘">
+                </div>
+                <div class="stack__title">Back-end</div>
+                <div class="stack__description">
+                    Node.js
+                </div>
+            </div>
+                <!-- DB-->
+            <div class="stack">
+                <div class="stack__icon"> 
+                    <img src="imgs/db_icon.png" alt="db아이콘">
+                </div>
+                <div class="stack__title">DataBase</div>
+                <div class="stack__description">
+                    MySQL, MongoDB
+                </div>
+            </div>   
+        </div>
+        <div class="about__certificates">
+            <div class="certificate">
+                <i class="fa-regular fa-square-check"></i> 
+                <p>Sql 개발자</p>
+                <p>취득일: 2022.09.30</p>
+            </div>
+            <div class="certificate">
+                <i class="fa-regular fa-square-check"></i> 
+                <p>네트워크 관리사 2급</p>
+                <p>취득일: 2022.12.13</p>
+            </div>
+            <div class="certificate">
+                <i class="fa-regular fa-square-check"></i> 
+                <p>TOEIC: 850</p>
+                <p>취득일: 2021.12.19</p>
+            </div>
+        </div>
+    </section> 
+
+
+
+
 
     <!-- Skills -->
     <section id='skills'></section>
