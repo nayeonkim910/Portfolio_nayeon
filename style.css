@@ -1,0 +1,9 @@
+.logo{ 
+        width: 20px;
+      
+        height: 20px; 
+}
+.navbar__logo a{
+    text-decoration: none;
+    color: black;
+}
