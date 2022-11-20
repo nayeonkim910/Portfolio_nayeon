@@ -8,10 +8,17 @@
     color: black;
 }
 #home img{
-    width: 300px;
-    height: 250px; 
+    width: 200px;
+    height: 170px; 
 }
 .stack__icon>img{
     width: 180px;
     height: 200px;
 }
+.skill__mark{
+    color: antiquewhite;
+    background-color: rgb(100, 172, 78);
+    border-radius: 40px;
+    /* padding-left: 5px; */
+    padding :0px 7px; 
+} 
