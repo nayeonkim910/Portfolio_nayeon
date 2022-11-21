@@ -16,7 +16,7 @@
     --color-yellow: #fff7d1;
     --color-orange: #feb546;
     --color-black: #000000; 
-    --color-light-pink:rgba(244, 151, 221, 0.721);
+    --color-light-pink:rgba(244, 151, 221, 0.721); 
     /* Font size */
     --font-large: 48px;
     --font-medium: 28px;
@@ -44,6 +44,7 @@ body {
     cursor: default;
 
 }
+ /* Navbar setup */
 .navbar__logo a{
     text-decoration: none; 
     color: var(--color-white);
@@ -52,7 +53,7 @@ body {
 #navbar{
     display: flex;
     justify-content: space-between; 
-    background-color:var(--color-light-blue);
+    background-color:var(--color-blue  );
     align-items: center;
     padding: 15px;
 }
@@ -77,7 +78,8 @@ body {
     border: 2px solid var(--color-light-white); 
 }
 .navbar__menu__item:hover{
-    background-color: var(--color-light-pink);
+    background-color: var(--color-light-blue );
+    color: var(--color-dark-grey);
 }
 .logo{ 
         width: 20px;
@@ -88,7 +90,16 @@ ul{
     list-style: none;
     padding-left : 0;
 }
+
+button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
   /* Typography */
+
  h1{
     font-size: var(--font-large);
     font-weight: var(--weight-bold);
@@ -115,13 +126,27 @@ ul{
     margin: 4px 0;
  }
 
- /* Nav */
 
-
-#home img{
-    width: 200px;
-    height: 170px; 
+ /* Home setup */
+#home{
+    background:url(imgs/home-background.png) center/cover no-repeat;
+    padding: 40px;
+    text-align: center;
 }
+.home__avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid var(--color-dark-grey ); 
+}
+.home__contact{
+    font-size: var(--font-regular);
+    font-weight: var(--weight-semi-bold);
+    margin: 20px;
+    padding: 8px 15px;
+    border: 2px solid var(--color-black); 
+
+} 
 .stack__icon>img{
     width: 180px;
     height: 200px;
