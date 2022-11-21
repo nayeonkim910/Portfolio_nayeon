@@ -68,7 +68,7 @@
         height: 20px; 
 }
 .navbar__logo a{
-    text-decoration: none;
+    text-decoration: none; 
     color: black;
 }
 #home img{
