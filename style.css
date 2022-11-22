@@ -56,7 +56,7 @@ body {
 #navbar{
     display: flex;
     justify-content: space-between; 
-    background-color:var(--color-blue  );
+    background-color:var(--color-blue);
     align-items: center;
     padding: 15px;
 }
@@ -133,14 +133,15 @@ button{
  /* Home setup */
 #home{
     background:url(imgs/home-background.png) center/cover no-repeat;
+
     padding: 40px;
     text-align: center;
 }
 .home__avatar{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: 3px solid var(--color-dark-grey ); 
+    border: 1px solid var(--color-blue ); 
 }
 .home__contact{
     font-size: var(--font-regular);
@@ -148,7 +149,7 @@ button{
     margin: 20px;
     padding: 8px 15px;
     border: 2px solid var(--color-black); 
-
+    border-radius: var(--border-radius-basic);
 } 
 /* common */
 .section{   /*중앙배치*/
@@ -250,7 +251,8 @@ button{
     text-align: center;
     background-color: var(--color-blue ); 
     font-size: var(--font-medium);
-    margin: 0; 
+    margin: 0;
+    color: var(--color-light-white);
 }
 .skills__left{ 
     margin: 0;   
