@@ -52,62 +52,75 @@ rel="stylesheet">
 
  
     <!-- About -->
-    <section id='about'>    
-        <h1>About me</h1>
-        <ul> 
-            <li>html.css.javascript를 이용한 포트폴리오  + project1 </li>
-            <li>javaScript를 활용하기 위해 typeScript학습 + project2 </li>
-            <li>React 학습 + project3</li>
-            <li>back-end학습 위해 node.js학습, 네트워크, SQL 자격증 취득</li>
-        </ul>
+    <section id='about' class='section'>    
+         <!-- <h1>About me</h1> -->
+         <div class="about__intro">
+            <div class='about__title'>About me</div>
+            <p class='about__description'>
+                프론트 엔드 개발자가 되기 위해 노력중입니다.<br>
+                '사람들을 끌어당기는 실용적이고, 멋진 사이트를 만들어 내자'라는 목표를 이루기 위해<br>
+                매일같이 학습하고 발전해나가고 있습니다.<br>  
+            </p>
+            
+        </div>
+    
+
         <div class="about__stacks">
         <!--box3개  -->
+            <!-- 프론트앤드 -->
             <div class="stack">
-                <!-- 프론트앤드 -->
-                <div class="stack__icon"> 
-                    <img src="imgs/react_icon.png" alt="react아이콘">
-                </div>
-                <div class="stack__title">Front-end</div>
-                <div class="stack__description">
-                    HTML/CSS, JavaScript, TypeScript, React.js
-                </div>
+                    <div class='stack__icon'>
+                        <i class="fa-brands fa-react"></i> 
+                    </div>
+                    <h2 class="stack__title">Front-end</h2>
+                    <div class="stack__description">
+                        HTML/CSS, JavaScript<br> TypeScript, React.js
+                    </div>
             </div>
                 <!-- 백앤드 -->
             <div class="stack">
-                <div class="stack__icon"> 
-                    <img src="imgs/node_icon.png" alt="node아이콘">
-                </div>
-                <div class="stack__title">Back-end</div>
-                <div class="stack__description">
-                    Node.js
-                </div>
+                    <div class='stack__icon'> 
+                        <i class="fa-brands fa-node"></i>
+                    </div>
+                    <h2 class="stack__title">Back-end</h2>
+                    <div class="stack__description">
+                        Node.js
+                    </div>
             </div>
                 <!-- DB-->
             <div class="stack">
-                <div class="stack__icon"> 
-                    <img src="imgs/db_icon.png" alt="db아이콘">
-                </div>
-                <div class="stack__title">DataBase</div>
-                <div class="stack__description">
-                    MySQL, MongoDB
-                </div>
+                    <div class='stack__icon'> 
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h2 class="stack__title">DataBase</h2>
+                    <div class="stack__description">
+                        MySQL, MongoDB
+                    </div>
             </div>   
         </div>
+
         <div class="about__certificates">
             <div class="certificate">
                 <i class="fa-regular fa-square-check"></i> 
-                <p>Sql 개발자</p>
-                <p>취득일: 2022.09.30</p>
+                <div class="certificate__detail"> 
+                    <p>Sql 개발자</p>
+                    <p>취득일: 2022.09.30</p>
+                </div>
+                </div>
+            <div class="certificate">
+                <i class="fa-regular fa-square-check"></i> 
+                <div class="certificate__detail">
+                    <p>네트워크 관리사 2급</p>
+                    <p>취득일: 2022.12.13</p>
+                </div>
+                
             </div>
             <div class="certificate">
                 <i class="fa-regular fa-square-check"></i> 
-                <p>네트워크 관리사 2급</p>
-                <p>취득일: 2022.12.13</p>
-            </div>
-            <div class="certificate">
-                <i class="fa-regular fa-square-check"></i> 
-                <p>TOEIC: 850</p>
-                <p>취득일: 2021.12.19</p>
+                <div class="certificate__detail">
+                    <p>TOEIC: 850</p>
+                    <p>취득일: 2021.12.19</p>
+                </div>
             </div>
         </div>
     </section> 
