@@ -41,7 +41,7 @@ rel="stylesheet">
     </nav>
 
     <!--Home -->
-    <section id="home">
+    <section id="home" >
         <img src="imgs/Profile2.jpg"
         alt="Nayeon's Profile image"
         class="home__avatar">
@@ -52,7 +52,7 @@ rel="stylesheet">
 
  
     <!-- About -->
-    <section id='about' class='section'>    
+    <section id='about' class='section section__container'>    
          <!-- <h1>About me</h1> -->
          <div class="about__intro">
             <div class='about__title'>About me</div>
@@ -63,9 +63,8 @@ rel="stylesheet">
             </p>
             
         </div>
-    
-
-        <div class="about__stacks">
+     
+        <div class="about__stacks" class='section '>
         <!--box3개  -->
             <!-- 프론트앤드 -->
             <div class="stack">
@@ -99,7 +98,7 @@ rel="stylesheet">
             </div>   
         </div>
 
-        <div class="about__certificates">
+        <div class="about__certificates ">
             <div class="certificate">
                 <i class="fa-regular fa-square-check"></i> 
                 <div class="certificate__detail"> 
@@ -126,41 +125,49 @@ rel="stylesheet">
     </section> 
  
     <!-- Skills -->
-    <section id='skills'>
-        <h1>Skills</h1> 
-        <div class="skill__guide">
-            <ul>
-                <li><span class='skill__marks'>1</span>: 기초 수준</li>
-                <li><span class='skill__marks'>2</span>: 활용 가능</li>
-                <li><span class='skill__marks'>3</span>: 프로젝트 활용 경험 有</li>
-            </ul> 
-        <!-- <h4>1:기초수준 2:개발가능 3:프로젝트 활용 경험有</h4>   -->
-        </div>
-        <div class="skills__left">
-            <h4 class="skills__title">Skills</h4> <!--1:기초 2:개발가능 3: 개발가능 + 프로젝트에 사용경험 有 -->
-            <ul class="skill__list">
-                <li class="skill__list__item"><span class='skill__marks'>3</span>HTML</li>
-                <li class="skill__list__item"><span class='skill__marks'>3</span>CSS</li>
-                <li class="skill__list__item"><span class='skill__marks'>3</span>JavaScript</li>
-                <li class="skill__list__item"><span class='skill__marks'>2</span>TypeScript</li>
-                <li class="skill__list__item"><span class='skill__marks'>3</span>React.js</li>
-                <li class="skill__list__item"><span class='skill__marks'>2</span>Node.js</li>
-            </ul>
-        </div>
-        <div class="skills__right">
-            <h4 class="skills__title">Etc</h4>    
-            <ul class="etc__list">
-                <li class="skill__list_item"><span class='skill__marks'>3</span>VS Code</li>
-                <li class="skill__list_item"><span class='skill__marks'>2</span>Git/ Github</li>
-                <li class="skill__list_item"><span class='skill__marks'>2</span>MySQL</li>
-                <li class="skill__list_item"><span class='skill__marks'>2</span>MongoDB</li>
-            </ul>
+    <section id='skills' class='section'>
+        <div  class="section__container">
+            <h1>Skills</h1> 
+            <div class="skills__guide">
+                <ul>
+                    <li><span class='skill__marks'>1</span>: 기초 수준</li>
+                    <li><span class='skill__marks'>2</span>: 활용 가능</li>
+                    <li><span class='skill__marks'>3</span>: 프로젝트 활용 경험 有</li>
+                </ul> 
+            </div>
+          
+            <div class="skills__container">  
+                <h4 class='skills__title'>SKILL</h4> 
+                <div class="skills__left"> 
+                        <ul class="skill__list">
+                            <li class="skill__list__item"><span class='skill__marks'>3</span>HTML</li>
+                            <li class="skill__list__item"><span class='skill__marks'>3</span>CSS</li>
+                            <li class="skill__list__item"><span class='skill__marks'>3</span>JavaScript</li> 
+                        </ul>
+                        <ul class="skill__list"> 
+                            <li class="skill__list__item"><span class='skill__marks'>2</span>TypeScript</li>
+                            <li class="skill__list__item"><span class='skill__marks'>3</span>React.js</li>
+                            <li class="skill__list__item"><span class='skill__marks'>2</span>Node.js</li>
+                        </ul>
+                    </div> 
+                    <h4 class='skills__title'>ETC</h4> 
+                    <div class="skills__right">
+                        <ul class="etc__list">
+                            <li class="skill__list__item"><span class='skill__marks'>3</span>VSCode</li>
+                            <li class="skill__list__item"><span class='skill__marks'>2</span>Git/Github</li> 
+                        </ul>
+                        <ul class="etc__list"> 
+                            <li class="skill__list__item"><span class='skill__marks'>2</span>MySQL</li>
+                            <li class="skill__list__item"><span class='skill__marks'>2</span>MongoDB</li>
+                        </ul>
+                    </div>
+            </div>
         </div>
     </section>
  
 
     <!-- Work -->
-    <section id='work'>
+    <section id='work' class='section'>
         <h1>My Work</h1>
         <h3>Projects</h3>
         <div class="work__navbar">
@@ -195,7 +202,7 @@ rel="stylesheet">
 
     </section> 
     <!-- Contact -->
-    <section id='contact'>
+    <section id='contact' class='section'>
         <h1 class="contact__title">Contact me</h1>
         <h3 class="contact__email"><i class="fa-solid fa-envelope-circle-check"></i>  yoni91059105@gmail.com</h3>
         <h3 class="contact__tel"><i class="fa-solid fa-phone"></i>  010-1234-5678</h3>

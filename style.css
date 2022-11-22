@@ -155,7 +155,10 @@ button{
     text-align: center;
     margin: auto;
     padding:35px;
-    max-width: 1200px;
+}
+.section__container{
+    max-width: 1200px; 
+    margin: auto; 
 }
 
 /* about setup */
@@ -209,8 +212,7 @@ button{
     margin: auto;
     font-size: var(--font-medium);
 }
-
-
+ 
 .about__certificates{
     display: flex;
     justify-content: space-between;
@@ -220,10 +222,59 @@ button{
     justify-content: space-between;
     padding: 20px; 
 }
+
+
+    /* Skill setup */
+
+#skills{ 
+    background-color: var(--color-light-blue); 
+    font-weight: var(--weight-semi-bold);
+
+}
+.skills__container{     
+    margin: 20px 0px;
+    text-align: left;
+    font-size: var(--font-regular); 
+    background-color:var(--color-light-white);
+}
+  
+.skills__guide ul{
+    color: #000000;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    background-color:var(--color-light-white );
+    
+} 
+.skills__title{  
+    text-align: center;
+    background-color: var(--color-blue ); 
+    font-size: var(--font-medium);
+    margin: 0; 
+}
+.skills__left{ 
+    margin: 0;   
+    display: flex; 
+    justify-content: space-around;  
+
+}
+.skill__list__item{
+    padding: 5px;
+    margin: 0 20px;
+    list-style: none;
+} 
+.skills__right{  
+    margin: auto;
+    display: flex; 
+    margin: 0;
+    justify-content: space-around;   
+  
+}   
 .skill__marks{
     color: antiquewhite;
-    background-color: rgb(100, 172, 78);
-    border-radius: 40px;
-    /* padding-left: 5px; */
+    background-color: var(--color-pink) ;
+    border-radius: var(--border-radius-basic);
     padding :0px 7px; 
-} 
+    margin: 10px;
+    font-weight: var(--weight-bold);
+}  
