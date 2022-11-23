@@ -240,10 +240,18 @@ text-align: left;
 .stack__icon i{
     transition: all var(--duration-basic) ease;
 }
-.stack__icon:hover i{
-    color: var(--color-light-pink);
+.stack__icon:hover .F{
+    color: rgb(72, 186, 227);
     transform: scale(1.2);
-}
+}  
+.stack__icon:hover .B{
+    color: rgb(49, 141, 49);
+    transform: scale(1.2);
+}  
+.stack__icon:hover .D{
+    color: rgb(25, 32, 45);
+    transform: scale(1.2);
+}  
 .stack__title{
     color: var(--color-dark-grey);
 }
