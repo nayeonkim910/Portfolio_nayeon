@@ -248,24 +248,30 @@ text-align: left;
     color: var(--color-dark-grey);
 }
 
-.certificate{
-    display: flex;
-}
-.certificate i{  
+.certificate{ 
     margin: auto;
-    font-size: var(--font-medium);
+    max-width: 1200px;
+
+
+}
+.certificates__title{
+    font-size: var(--font-regular);
+    font-weight: var(--weight-bold);
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 40px;
+
+} 
+.certificates__list{
+    padding: 15px;
+    margin: 30px 0px;
+    display: flex; 
+    list-style: circle;
+    justify-content: space-evenly;
+    background-color: var(--color-light-white);
+
 }
  
-.about__certificates{
-    display: flex;
-    justify-content: space-between;
-    color: var(--color-blue);
-}
-.certificate__detail{ 
-    justify-content: space-between;
-    padding: 20px; 
-}
-
 
     /* Skill setup */
 
@@ -357,7 +363,6 @@ text-align: left;
     height: 280px;
     margin: 10px 10px;
     background-color: var(--color-light-white );
-
     position: relative;
 }
 
@@ -399,6 +404,7 @@ text-align: left;
 }
 .contact__title{
     margin: 20px 0px;
+
 }
 
 .contact__title,
