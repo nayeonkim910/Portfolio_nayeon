@@ -315,3 +315,65 @@ text-align: left;
     margin: 10px;
     font-weight: var(--weight-bold);
 }  
+/* Works Setup */
+.work__navbar__btn{
+    border: 1px solid var(--color-dark-white);
+    border-radius: var(--border-radius-basic);
+    font-size: var(--font-regular);
+    padding: 8px 40px;
+    margin: 2px 15px;
+}
+.work__navbar{
+    margin: 30px;
+}
+.work__navbar__btn:hover{
+    background-color: var(--color-light-white );
+}
+.work__projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.project{
+    width: 350px;
+    height: 280px;
+    margin: 10px 10px;
+    background-color: var(--color-light-white );
+
+    position: relative;
+}
+
+.project__img{
+    width: 95%;
+    padding: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.project__description{
+    position: absolute; 
+    top: 0;
+    left: 0;   
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;   
+    transition: all var(--duration-basic) ease-in;
+}
+.project:hover .project__description{
+    opacity: 0.8;   
+
+}
+.project h3{
+    /* margin: 5px; */
+    /* background-color: pink; */
+    font-weight: var(--weight-semi-bold);
+}.project h3, span{
+    color: white;
+    margin: 5px;
+
+}
