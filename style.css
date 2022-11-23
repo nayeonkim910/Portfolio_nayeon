@@ -266,8 +266,9 @@ text-align: left;
     font-size: var(--font-regular);
     font-weight: var(--weight-bold);
     padding: 15px;
-    border: 1px solid black;
     border-radius: 40px;
+    background-color: var(--color-light-white);
+
 
 } 
 .certificates__list{
@@ -285,9 +286,7 @@ text-align: left;
 
 #skills{ 
     font-weight: var(--weight-semi-bold);
-
-
-
+ 
 }
 .skills__container{     
     margin: 40px 0px;
@@ -295,11 +294,9 @@ text-align: left;
     font-size: var(--font-regular); 
     /* background-color:var(--color-white); */
     background-color:  #e8ecef;  
-
 }
   
-.skills__guide ul{ 
-
+.skills__guide ul{  
     color: #000000; 
     background-color:  #e8ecef;  
     font-weight: var(--weight-bold);
