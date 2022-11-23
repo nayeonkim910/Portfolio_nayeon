@@ -337,7 +337,8 @@ text-align: left;
 .skill__marks{
     color: antiquewhite;
     background-color: var(--color-pink) ;
-    border-radius: var(--border-radius-basic);
+    /* border-radius: var(--border-radius-basic); */
+    border-radius: 50%;
     padding :0px 7px; 
     margin: 10px;
     font-weight: var(--weight-bold);
@@ -361,8 +362,7 @@ text-align: left;
     flex-wrap: wrap;
     justify-content: center;
     
-}
-
+} 
 .project{
     width: 350px;
     height: 280px;
@@ -410,8 +410,7 @@ text-align: left;
 .contact__title{
     margin: 20px 0px;
 
-}
-
+} 
 .contact__title,
 .contact__email,
 .contact__tel{
