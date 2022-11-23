@@ -60,6 +60,8 @@ body {
     background-color:var(--color-white );
     align-items: center;
     padding: 15px;
+    border: 2px solid black;
+    margin: 5px;
 }
 .navbar__logo{
     font-size: var(--font-medium);
@@ -83,7 +85,7 @@ body {
     border: 2px solid var(--color-dark-grey ); 
 }
 .navbar__menu__item:hover{ 
-    background-color: rgb(218, 241, 255);
+    background-color: var(--color-dark-white);
 }
 .logo{ 
         width: 20px; 
@@ -133,29 +135,42 @@ button{
  /* Home setup */
 #home{
     /* background:url(imgs/home-background.png) center/cover no-repeat; */
-    background-color: rgb(218, 241, 255);
     padding: 40px;
     text-align: center;
-}
+    /* border: 1px solid black; */
+    margin: 0;
+} 
+#home:after{
+    content: '';
+    display: block;
+    width: 70%;
+    height: 3px;
+    margin: auto; 
+    background-color:var(--color-dark-grey);
+
+} 
 .home__avatar{
-    width: 330px;
-    height: 250px;
-    border-radius: 8px; 
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
     padding: 10px;
     margin: 30px; 
 
 
 }  
 .home__profile__info {
-    font-weight: var(--weight-semi-bold);
-    /* text-align: center; */
-    /* flex-basis: 60%; */
-
-
+    font-weight: var(--weight-semi-bold);  
+}
+.home__profile__info a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+.home__profile__info i{
+    padding: 0px 30px;
 }
 .home__profile__info li{
 margin: 15px 20px;
-padding: 10px; 
+padding: 3px 15px; 
 list-style: none;
 background-color: var(--color-white);
 border-radius: 5px;
