@@ -17,6 +17,7 @@
     --color-orange: #feb546;
     --color-black: #000000; 
     --color-light-pink:rgba(244, 151, 221, 0.721); 
+    --color-green:rgb(72, 116, 5);
     /* Font size */
     --font-large: 48px;
     --font-medium: 28px;
@@ -50,13 +51,13 @@ body {
  /* Navbar setup */
 .navbar__logo a{
     text-decoration: none; 
-    color: var(--color-white);
+    color:var(--color-black);
     font-weight: var(--weight-bold);
 }
 #navbar{
     display: flex;
     justify-content: space-between; 
-    background-color:var(--color-blue);
+    background-color:var(--color-white );
     align-items: center;
     padding: 15px;
 }
@@ -67,26 +68,25 @@ body {
 .navbar__menu{
     display: flex; 
 
+
 }
 .navbar__menu>li{
     padding: 10px 15px; 
     margin: 0 5px;
-    color: var(--color-light-white);
+    color: var(--color-black );
     font-size: var(--font-regular);
     font-weight: var(--weight-semi-bold);
     border-radius: var(--border-radius-basic);
 
 }
 .navbar__menu__item.active{
-    border: 2px solid var(--color-light-white); 
+    border: 2px solid var(--color-dark-grey ); 
 }
-.navbar__menu__item:hover{
-    background-color: var(--color-light-blue );
-    color: var(--color-dark-grey);
+.navbar__menu__item:hover{ 
+    background-color: rgb(218, 241, 255);
 }
 .logo{ 
-        width: 20px;
-      
+        width: 20px; 
         height: 20px; 
 }
 ul{
@@ -132,16 +132,42 @@ button{
 
  /* Home setup */
 #home{
-    background:url(imgs/home-background.png) center/cover no-repeat;
-
+    /* background:url(imgs/home-background.png) center/cover no-repeat; */
+    background-color: rgb(218, 241, 255);
     padding: 40px;
     text-align: center;
 }
 .home__avatar{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 1px solid var(--color-blue ); 
+    width: 330px;
+    height: 250px;
+    border-radius: 8px; 
+    padding: 10px;
+    margin: 30px; 
+
+
+}  
+.home__profile__info {
+    /* text-align: center; */
+    /* flex-basis: 60%; */
+
+
+}
+.home__profile__info li{
+margin: 15px 20px;
+padding: 10px; 
+list-style: none;
+background-color: var(--color-white);
+border-radius: 5px;
+text-align: left; 
+}
+.home__profile__info i{
+    padding: 6px;
+}
+
+.home__pofile{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 .home__contact{
     font-size: var(--font-regular);
