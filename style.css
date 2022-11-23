@@ -147,6 +147,7 @@ button{
 
 }  
 .home__profile__info {
+    font-weight: var(--weight-semi-bold);
     /* text-align: center; */
     /* flex-basis: 60%; */
 
@@ -377,3 +378,17 @@ text-align: left;
     margin: 5px;
 
 }
+/* Contact setup */
+#contact {
+    background-color: var(--color-blue);
+}
+.contact__title{
+    margin: 20px 0px;
+}
+
+.contact__title,
+.contact__email,
+.contact__tel{
+    color: white;
+}
+  
